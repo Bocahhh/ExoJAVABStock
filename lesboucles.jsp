@@ -29,15 +29,13 @@
 <p>Ecrire le code afin de produire un carré d'étoile</p>
 <p>Exemple si l'utilisateur saisie le valeur 5</p>
 <p>
-    <% for (int i = 0; i <= cpt; i++) {
-            </br>
-            for (int j = 0; j <= cpt; j++) { %>
-       <%= "*" %>
-    <% } %>
+    <% for (int i = 1; i <= cpt; i++) { %>
+        </br>
+        <% for (int y = 1; y <= cpt; y++) { %>
+           <%= "*" %>
+        <% } %>
     <% } %>
     </p>
-
-<p>*****</br>*****</br>*****</br>*****</br>*****</p>
 
 <h2>Exercice 2 : Triangle rectangle gauche</h2>
 <p>Ecrire le code afin de produire un triangle rectangle aligné sur la gauche</p>
