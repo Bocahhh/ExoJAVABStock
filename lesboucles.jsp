@@ -28,6 +28,17 @@
 <h2>Exercice 1 : Le carré d'étoiles</h2>
 <p>Ecrire le code afin de produire un carré d'étoile</p>
 <p>Exemple si l'utilisateur saisie le valeur 5</p>
+
+
+<%int cpt = Integer.parseInt(valeur); %>
+<p>
+    <% for (int i = 0; i < taille; i++) {
+            for (int j = 0; j < taille; j++) {
+                System.out.print("* "); { %>
+       <%= "*" %>
+    <% } %>
+    </p>
+
 <p>*****</br>*****</br>*****</br>*****</br>*****</p>
 
 <h2>Exercice 2 : Triangle rectangle gauche</h2>
